@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+/* header and links */
+
+.nav-main{
+    display:flex;
+    background: #1F2937;
+    align-items: center;
+    padding: 20px 100px 20px 100px;
+}
+
+.nav-main h1{
+    display:flex;
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.nav-sub {
+    display:flex;
+    gap:5px;
+    font-size:18px;
+    color:#E5E7EB;
+    margin-left:auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* header contents(text and images) */
+
+.header-sub{
+    display:flex;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding:80px;
+}
+
+.header-sub img{
+    height:300px;
+    width:500px;
+}
+
+.header-sub-left{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Hero New',sans-serif;
+    padding: 40px;
+}
+
+.header-sub-left button{
+    height:30px;
+    width:100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    font-size:18px;
+    text-align: center;
+}
+
+.header-sub-left .main {
+    font-size:48px;
+    font-weight:800;
+    color:#F9FAF8;
+    max-width: 400px;
+}
+
+.header-sub-left .secondary {
+    font-size:18px;
+    color:#E5E7E8;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+.header-sub-right{
+    display:flex;
+}
+
+/* second part with information and images */
+.body-one{
+    background-color: #F9FAF8;
+    padding: 60px 0 60px 0;
+}
+
+.body-one p{
+    display:flex;
+    font-size:36px;
+    font-weight:800;
+    justify-content: center;
+    color: #1F2937;
+    margin-bottom:20px;
+}
+
+.body-one-container {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.body-one img{
+    height:200px;
+    width:200px;
+    border:2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.body-one-container .info{
+    max-width:200px;
+}
+
+/* quotes and author */
+
+.body-two {
+    background-color: #F0F0F0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px 20px;
+}
+
+.body-two p{
+    color:#1F2937;
+    font-size:36px;
+    font-style:italic;
+    max-width:850px;
+    padding:20px;
+}
+
+.body-two b{
+    color:#1F2937;
+    font-size:20px;
+    margin-left:530px;
+}
+
+/* footer */
+
+
+
