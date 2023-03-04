@@ -41,16 +41,18 @@ ul{
     text-decoration: none;
     color:#F9FAF8;
     font-size:18px;
-    padding:10px 15px;
+    padding:15px 25px;
+    border-radius: 50px;
 }
 
 .nav-sub a:hover:not(.active) {
-    color:black;
-    background-color: #1b6e75;
+    color:#1b6e75;
+    transition: all 0.3s ease 0s;
   }
 
 .nav-sub li a.active{
-    background-color: #1f3537;
+    background-color:/* #1f3537*/ #1b6e75;
+
 }
 
 /* header contents(text and images) */
@@ -70,6 +72,7 @@ ul{
 }
 
 .header-sub img{
+    display:flex;
     height:300px;
     width:450px;
 
